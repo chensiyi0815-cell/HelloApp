@@ -18,5 +18,7 @@ print(age_predictions)
 age_predictions = sorted(age_predictions, key=lambda x: x['score'], reverse=True)
 
 # Display results
-print("Predicted Age Range:")
-print(f"Age range: {age_predictions[0]['label']}")
+st.write("Predicted Age Range:")
+st.write(f"Age range: {age_predictions[0]['label']}")
+
+st.write('Done')
