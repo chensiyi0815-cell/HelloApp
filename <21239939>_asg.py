@@ -22,7 +22,7 @@ def load_ai_models():
     
     # Stage 2: Story Generation (Requirement 24) [cite: 24]
     # We use 'TinyStories-1M' which uses simple vocabulary suitable for 3-10 year olds. 
-    story_pipe = pipeline("text-generation", model="roneneldan/TinyStories-1M")
+    story_pipe = pipeline("text-generation", model="pranavpsv/genre-story-generator-v2")
     
     # Stage 3: Text-to-Speech Conversion (Requirement 25) [cite: 25, 27]
     tts_pipe = pipeline("text-to-audio", model="Matthijs/mms-tts-eng")
