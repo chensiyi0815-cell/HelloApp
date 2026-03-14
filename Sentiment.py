@@ -7,7 +7,7 @@ import torch
 import numpy as np
 
 # Testing with the saved model
-model2 = AutoModelForSequenceClassification.from_pretrained("CustomModel_yelp",
+model2 = AutoModelForSequenceClassification.from_pretrained("isom5240/2026Spring5240L1",
                                                             num_labels=5)
 tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
 
